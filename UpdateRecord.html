@@ -1,0 +1,82 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update</title>
+    <link rel="shortcut icon" type="image/png" href="/">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script type="text/javascript" src="js/main.js"></script>
+
+
+</head>
+<body>
+    <div class="topnav">
+
+        <a href="index.html">Home</a>
+        <a href="main.html"> About Covid-19</a>
+        <a href="Charts.html">Visualizations </a>
+        <a class="active" href="Deaths.html">Data & Statistics</a>
+        <a href="helpfulresources.html">Helpful Resources</a>
+        <a href="AboutUs.html">About Us</a>
+
+
+    </div>
+
+    <h1 style="text-align: center; color: #0d0d0d">You can update total covid deaths here  :</h1>
+    <div id="nav-bar"></div>
+    <script src="https://kit.fontawesome.com/f4cc93c88a.js" crossorigin="anonymous"></script>
+    <div id="includedContent"></div>
+    <div class="center">
+        <h1></h1>
+        <table class="styled-table">
+            <thead>
+                <tr>
+                    <th colspan="5">Update Record</th>
+                </tr>
+            </thead>
+            <tr>
+            <tr>
+                <td>
+                    <form>
+                        <label>Condition Group<br>(Read-only)</label><br>
+                        <input type="text" name="Condition Group" value="Alziemer diseases" readonly style="background-color:#d8d8d8;"><br>
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label>Condition<br>(Read-only)</label><br>
+                        <input type="text" name="Condition" value="Alziemer" readonly style="background-color:#d8d8d8;"><br>
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label>Year<br>(Read-only)</label><br>
+                        <input type="text" name="Year" value="2021" readonly style="background-color:#d8d8d8;"><br>
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label>Month<br>(Read-only)</label><br>
+                        <input type="text" name="Month" value="October" readonly style="background-color:#d8d8d8;"><br>
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="fname">Total Covid deaths<br> <br></label><br>
+                        <input type="text" id="fname" name="fname"><br>
+                    </form>
+                </td>
+
+            </tr>
+            <tr>
+                <td colspan="5"><button class="btn" onclick="updateAlert()">Update</button></td>
+            </tr>
+        </table>
+    </div>
+
+
+    
+</body>
+</html>
